@@ -1,6 +1,8 @@
 *{
   margin: 0;
   padding: 0;
+  /* box-sizing: border-box; will instruct the browser to ignore padding in the overall width */
+  box-sizing: border-box;
 }
 body {
     font-family: Helvetica, Arial, sans-serif;
@@ -41,5 +43,23 @@ header {
 
   footer{
     background-color: #fce138;
-    padding: 20px 35px;
+    width: 100%;
+    padding: 40px 35px;
+  }
+
+  footer h2{
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+  }
+
+  footer div{
+    float: right;
+    text-align: right;
+    line-height: 1.5;
+  }
+
+  footer a{
+    color: #024e76;
   }
