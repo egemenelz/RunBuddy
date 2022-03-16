@@ -17,5 +17,11 @@ header {
   }
   
   header a {
+    text-align: center;
     color: #fce138;
+  }
+
+  footer{
+    background-color: #fce138;
+    padding: 20px 35px;
   }
