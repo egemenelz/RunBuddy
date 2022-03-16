@@ -1,3 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body {
     font-family: Helvetica, Arial, sans-serif;
     color: #39a6b2;
@@ -14,11 +18,25 @@ header {
     font-size: 36px;
     color: #fce138;
     margin: 0;
+    display: inline;
   }
   
   header a {
-    text-align: center;
+    
     color: #fce138;
+    text-decoration: none;
+    /* text-decoration: none;  to disable underlines on the "a" tag */
+  }
+  header nav{
+    /* float moves to elements right left */
+    float: right;
+    margin: 7px 0;
+  }
+  header nav ul li{
+    display: inline;
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px ;
   }
 
   footer{
