@@ -27,7 +27,7 @@ header {
     
     color: #fce138;
     text-decoration: none;
-    /* text-decoration: none;  to disable underlines on the "a" tag */
+    /* te xt-decoration: none;  to disable underlines on the "a" tag */
   }
   header nav{
     /* float moves to elements right left */
@@ -39,6 +39,19 @@ header {
     margin: 0 30px;
     font-weight: lighter;
     font-size: 22px ;
+  }
+
+  section{
+    padding: 60px;
+  }
+  .hero-image{
+    background-image: url("../images/hero-bg.jpeg");
+    height: 600px;
+    background-size: cover ;
+    background-position: center;
+  }
+  section div{
+    text-align: left;
   }
 
   footer{
