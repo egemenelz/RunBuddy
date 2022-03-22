@@ -45,9 +45,15 @@ header nav ul li {
     font-size: 22px;
 }
 
+
+/* HEADER SECTION ENDS */
+
 section {
     padding: 60px;
 }
+
+
+/* HERO STYLES STARTS */
 
 .hero-image {
     background-image: url("../images/hero-bg.jpeg");
@@ -98,6 +104,12 @@ section {
     font-size: 16px;
 }
 
+
+/* HERO STYLES ENDS */
+
+
+/* Intro STYLES STARTS */
+
 .intro {
     text-align: center;
 }
@@ -126,6 +138,12 @@ section {
     font-size: 20px;
     display: inline-block;
 }
+
+
+/* INTRO STYLES ENDS */
+
+
+/* STEPS STYLES STARTS */
 
 .steps {
     text-align: center;
@@ -156,6 +174,12 @@ section {
 .steps span {
     font-size: 38px;
 }
+
+
+/* STEPS STYLES ENDS */
+
+
+/* TRAINERS STYLES STARTS */
 
 .trainers {
     text-align: center;
@@ -213,6 +237,12 @@ section {
     text-align: right;
 }
 
+
+/* TRAINERS STYLES ENDS */
+
+
+/* CONTACT STYLE STARTS */
+
 .contact {
     background-color: #024e76;
     text-align: center;
@@ -258,6 +288,12 @@ section {
     color: #fce138;
 }
 
+
+/* CONTACT STYLES ENDS */
+
+
+/* FOOTER STYLES STARTS */
+
 footer {
     background-color: #fce138;
     width: 100%;
@@ -280,3 +316,6 @@ footer div {
 footer a {
     color: #024e76;
 }
+
+
+/* FOOTERS STYLES ENDS */
