@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; will instruct the browser to ignore padding in the overall width */
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #39a6b2;
+}
+
+
+/* apply styles to <header> */
+
+
+/* Header Styles Start */
+
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+    display: inline;
+}
+
+header a {
+    color: #fce138;
+    text-decoration: none;
+    /* te xt-decoration: none;  to disable underlines on the "a" tag */
+}
+
+header nav {
+    /* float moves to elements right left */
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+}
+
+
+/* Header Style Ends */
+
+
+/* Hero Image Starts */
+
+.hero-image {
+    background-image: url("../images/hero-bg.jpeg");
+    height: 300px;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+
+.hero-image h2 {
+    font-size: 35px;
+    color: #fce138;
+    text-align: center;
+}
+
+
+/* Footer Style Starts */
+
+footer {
+    background-color: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    float: right;
+    text-align: right;
+    line-height: 1.5;
+}
+
+footer a {
+    color: #024e76;
+}
+
+
+/* Footer Styles Ends */
