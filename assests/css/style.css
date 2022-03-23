@@ -9,6 +9,9 @@ body {
     font-family: Helvetica, Arial, sans-serif;
     color: #39a6b2;
 }
+.flex-row{
+  display: flex;
+}
 
 
 /* apply styles to <header> */
@@ -145,17 +148,21 @@ section {
 
 /* Intro STYLES STARTS */
 
-.intro {
+/* .intro {
     text-align: center;
-}
+} */
 
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
+    /* margin-bottom: 35px; */
+    /* padding: 0 100px 20px 100px; */
     border-bottom: 3px solid;
-    display: inline-block;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+    /* display: inline-block; */
 }
 
 .primary-border {
@@ -172,6 +179,7 @@ section {
     width: 80%;
     font-size: 20px;
     display: inline-block;
+    text-align: center;
 }
 
 
@@ -181,7 +189,7 @@ section {
 /* STEPS STYLES STARTS */
 
 .steps {
-    text-align: center;
+    /* text-align: center; */
     background-color: #fce138;
     line-height: 1.7;
 }
@@ -217,7 +225,7 @@ section {
 /* TRAINERS STYLES STARTS */
 
 .trainers {
-    text-align: center;
+    /* text-align: center; */
 }
 
 .trainer {
@@ -280,7 +288,7 @@ section {
 
 .contact {
     background-color: #024e76;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .contact h2 {
