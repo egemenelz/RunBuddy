@@ -180,6 +180,7 @@ section {
     font-size: 20px;
     display: inline-block;
     text-align: center;
+    margin: 0 auto;
 }
 
 
@@ -191,7 +192,7 @@ section {
 .steps {
     /* text-align: center; */
     background-color: #fce138;
-    line-height: 1.7;
+    /* line-height: 1.7; */
 }
 
 /* .steps div {
@@ -258,59 +259,66 @@ section {
 
 .trainers {
     /* text-align: center; */
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .trainer {
-    width: 900px;
-    margin: 0 auto 30px auto;
+    /* width: 900px; */
+    margin: 20px;
+    flex: 1;
     background: #024e76;
     color: #fce138;
-    overflow: auto;
+    /* overflow: auto; */
 }
 
 .trainer img {
-    width: 35%;
-    float: left;
+    width: 100%;
+    /* float: left; */
 }
 
-.trainer-2 img {
+/* .trainer-2 img {
     width: 35%;
     float: right;
-}
+} */
 
 .trainer-bio {
-    padding: 35px;
-    float: left;
-    width: 65%;
+    padding: 25px;
+    /* float: left;
+    width: 65%; */
+    line-height: 1.3;
 }
 
 .trainer-bio h3 {
-    font-size: 32px;
-    margin-bottom: 8px;
+    font-size: 28px;
+    /* margin-bottom: 8px; */
 }
 
 .trainer-bio h4 {
     font-weight: lighter;
-    font-size: 26px;
-    margin-bottom: 25px;
+    font-size: 22px;
+    margin-bottom: 15px;
 }
 
 .trainer-bio p {
     font-size: 17px;
-    line-height: 1.3;
+    
 }
 
-.trainer p {
+/* .trainer p {
     float: right;
-}
+} */
 
-.text-left {
+/* .text-left {
     text-align: left;
 }
 
 .text-right {
     text-align: right;
-}
+} */
 
 
 /* TRAINERS STYLES ENDS */
